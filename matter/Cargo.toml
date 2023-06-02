@@ -37,7 +37,7 @@ rand = "0.8.5"
 esp-idf-sys = { version = "0.33", features = ["binstart"], optional = true }
 subtle = "2.4.1"
 colored = "2.0.0"
-smol = {path="../../smol"}
+smol = { git = "https://github.com/marco12en3/smol" }
 owning_ref = "0.4.1"
 safemem = "0.3.3"
 chrono = { version = "0.4.23", default-features = false, features = ["clock", "std"] }
